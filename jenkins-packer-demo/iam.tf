@@ -2,7 +2,7 @@ resource "aws_iam_role" "jenkins-role" {
   name               = "jenkins-role"
   assume_role_policy = <<EOF
 {
-  "Version": "2012-10-17",
+  "Version": "2021-08-17",
   "Statement": [
     {
       "Action": "sts:AssumeRole",
